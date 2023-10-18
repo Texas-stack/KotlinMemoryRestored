@@ -6,7 +6,7 @@ fun main() {
             0 ->{break}
             1 ->{
                 println("Решение Артёма:")
-                Watch()
+                println(Watch().execute())
             }
             2 ->{
                 println("Решение Лёши")
