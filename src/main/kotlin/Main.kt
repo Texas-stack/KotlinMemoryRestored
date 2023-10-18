@@ -1,7 +1,17 @@
-fun main(args: Array<String>) {
+fun main() {
     println("Hello World!")
+    while (true){
+        val input = readln()
+        when(input.toIntOrNull()){
+            0 ->{break}
+            1 ->{
+                println("Решение Артёма:")
+                Watch()
+            }
+            2 ->{
+                println("Решение Лёши")
+            }
+        }
+    }
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
 }
