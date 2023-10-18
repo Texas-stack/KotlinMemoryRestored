@@ -10,6 +10,7 @@ fun main() {
             }
             2 ->{
                 println("Решение Лёши")
+                StringsAndNumbers().execute()
             }
         }
     }

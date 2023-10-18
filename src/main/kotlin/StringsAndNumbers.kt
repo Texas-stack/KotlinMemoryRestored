@@ -1,4 +1,9 @@
 class StringsAndNumbers {
-    // I am the storm that is approaching
-    // Provoking black clouds in isolation
+    //
+    // /
+    val a = "I am the storm that is approaching"
+    val b = "Provoking black clouds in isolation"
+    fun execute() {
+        println(a + b)
+    }
 }
