@@ -1,0 +1,4 @@
+interface SmesharikRepository {
+    fun execute()
+
+}
